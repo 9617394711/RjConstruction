@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+h3{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    color: rgb(85, 36, 1);
+}
+.img img{
+    margin-top: 20px;
+  
+    border: 5px solid black;
+    border-radius: 20px;
+}
+img{
+
+    border: 5px solid black;
+    border-radius: 150px;
+}
+.aboutitem{
+    margin-top: 10px;
+    margin-left: 40px;
+    color: rgb(0, 110, 108);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    list-style-image: url("New folder/cap.png");
+}

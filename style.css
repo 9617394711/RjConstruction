@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=EB+Garamond:ital@0;1&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 0vh;
+}
+/* nav{
+    background-color: red;
+    height: 14vh;
+}
+.container{
+    background-color: rgb(237, 222, 5);
+    height: 13vh;
+}
+.ul1{
+    background-color: blueviolet;
+    height: 12vh;
+} */
+
+header nav ul img:hover {
+    transform: rotate(0.01turn);
+}
+
+
+
+header nav ul {
+    list-style: none;
+    position: sticky;
+    top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    background: url("New folder/1350.jpg") no-repeat scroll;
+}
+
+.line {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0px 20px;
+    font-size: 26px;
+    padding: 20px;
+}
+
+
+.line li a {
+    color: rgb(226, 203, 2);
+    font-family: inherit;
+    position: sticky;
+    top: 20px;
+}
+
+.line li a:hover {
+    font-size: 30px;
+
+}
+
+li {
+    margin: 10px 20px;
+
+}
+
+ul li a {
+    text-decoration-line: none;
+
+}
+
+main {
+    height: calc(47vw - 10vh - 5vh);
+    display: grid;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item1 {
+    margin-top: 300px;
+    font-family: 'EB Garamond', serif;
+    height: 335px;
+    width: 265px;
+}
+
+.item1 li {
+    list-style: square;
+}
+
+.item2 li {
+    list-style: none;
+
+}
+
+.item2 {
+    height: 160px;
+    z-index: 3;
+    
+}
+
+.item3 {
+    height: 115px;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+.classwork {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.classwork2 {
+    list-style-image: url();
+
+}
+
+.img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 79px;
+
+
+}
+
+.class2 {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 38px -230px;
+}
+
+.About1 {
+    height: 300px;
+    border: 4mm ridge rgba(33, 24, 6, 0.6);
+}
+.work{
+    color: black;
+    text-decoration-line: none;
+    background-color: beige;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    margin-right: 10px;
+    /* font-family: 'Alfa Slab One', cursive; */
+    color: white;
+
+
+}
